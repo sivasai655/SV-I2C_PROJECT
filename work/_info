@@ -1,0 +1,391 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.3_1 2021.08, Aug 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/u/sivasais/Downloads/TEAM4/TOPMODULE
+T_opt
+!s11d top_sv_unit /home/sivasais/common/Downloads/TEAM4/TOPMODULE/work 1 INTF 1 /home/sivasais/common/Downloads/TEAM4/TOPMODULE/work 
+!s110 1686372860
+VOQ:f0U>VkD`@<RS22Mc<73
+04 3 4 work top fast 0
+=1-525400b63b2a-648401fc-dc4b-505
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc=npr
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.3_1;73
+vController
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 DXx4 work 6 my_pkg 0 22 6dcL?4^NQH4Hk4Y_lMzN@0
+DXx4 work 18 controller_sv_unit 0 22 n8X2@zORl_;4LE6`1RPe?1
+Z4 !s110 1686372858
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 LEDFQNf>PX[eDJeS]=8eW0
+I0_b^2CPBF02[ln3]0DbMR2
+!s105 controller_sv_unit
+S1
+R0
+Z6 w1686354643
+Z7 8controller.sv
+Z8 Fcontroller.sv
+!i122 0
+L0 3 186
+Z9 OL;L;2021.3_1;73
+31
+Z10 !s108 1686372858.000000
+Z11 !s107 top.sv|dff.sv|shiftregister.sv|mux8to1.sv|i2c_top.sv|memory.sv|controller.sv|I2C.sv|my_pkg.sv|
+Z12 !s90 -source|-lint|-sv|my_pkg.sv|I2C.sv|controller.sv|memory.sv|i2c_top.sv|mux8to1.sv|shiftregister.sv|dff.sv|top.sv|
+!i113 0
+Z13 o-source -lint -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@controller
+Xcontroller_sv_unit
+R2
+R3
+R4
+Vn8X2@zORl_;4LE6`1RPe?1
+r1
+!s85 0
+!i10b 1
+!s100 aEzog;G3lW6@KWzUDgYck2
+In8X2@zORl_;4LE6`1RPe?1
+!i103 1
+S1
+R0
+R6
+R7
+R8
+!i122 0
+Z14 L0 1 0
+R9
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vDFF
+R2
+R4
+!i10b 1
+!s100 lZ^>=:zNePg@Qh3Q]G8^01
+I?W=^iW^oZbod1YaE@VSj>1
+S1
+R0
+Z15 w1686322934
+8dff.sv
+Fdff.sv
+!i122 0
+L0 1 13
+R5
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+n@d@f@f
+vI2C
+R2
+R3
+DXx4 work 11 I2C_sv_unit 0 22 ;=08=J?QZcIT415i@9Hoj3
+R4
+R5
+r1
+!s85 0
+!i10b 1
+!s100 2NSI5f^5EcQe1k;kS9X=e2
+IQjO6n3mFW2OR]:_>;diW@0
+!s105 I2C_sv_unit
+S1
+R0
+Z16 w1686347820
+Z17 8I2C.sv
+Z18 FI2C.sv
+!i122 0
+L0 3 245
+R9
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+n@i2@c
+XI2C_sv_unit
+R2
+R3
+R4
+V;=08=J?QZcIT415i@9Hoj3
+r1
+!s85 0
+!i10b 1
+!s100 Gk;8F[?T6CVc<>mmH^NCn0
+I;=08=J?QZcIT415i@9Hoj3
+!i103 1
+S1
+R0
+R16
+R17
+R18
+!i122 0
+R14
+R9
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+n@i2@c_sv_unit
+vI2C_top
+R2
+R3
+DXx4 work 15 i2c_top_sv_unit 0 22 ;c7UFjIhf^T5ADcfBMhzX1
+R4
+R5
+r1
+!s85 0
+!i10b 1
+!s100 XUJ`PNm?^>Fz]X1;^1XP30
+I`]0JCRD8agWDT35;Ii=4o0
+!s105 i2c_top_sv_unit
+S1
+R0
+Z19 w1686341088
+Z20 8i2c_top.sv
+Z21 Fi2c_top.sv
+!i122 0
+L0 3 33
+R9
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+n@i2@c_top
+Xi2c_top_sv_unit
+R2
+R3
+R4
+V;c7UFjIhf^T5ADcfBMhzX1
+r1
+!s85 0
+!i10b 1
+!s100 YUg7l;Ok4i`gcz=;RgonY2
+I;c7UFjIhf^T5ADcfBMhzX1
+!i103 1
+S1
+R0
+R19
+R20
+R21
+!i122 0
+R14
+R9
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+YINTF
+R2
+R3
+Z22 DXx4 work 11 top_sv_unit 0 22 4ho3fFMNme]_3?B@nR4M^0
+R4
+R5
+r1
+!s85 0
+!i10b 1
+!s100 HiLo``a0i>kVGf:@[25oJ1
+I5iMcJV9co7l9dH]FiVBPf1
+Z23 !s105 top_sv_unit
+S1
+R0
+Z24 w1686361413
+Z25 8top.sv
+Z26 Ftop.sv
+!i122 0
+L0 3 0
+R9
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+n@i@n@t@f
+vmemory
+R2
+R4
+!i10b 1
+!s100 d2@:`NoE3YlQUQ[>hG:B>2
+IE5MdXa[Ce8PV;]leEbO@d1
+S1
+R0
+w1686361221
+8memory.sv
+Fmemory.sv
+!i122 0
+L0 1 23
+R5
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vMux8to1
+R2
+R4
+!i10b 1
+!s100 gE=bBK7AEVZ[]3SChXm3@2
+I0BMCVXz>9VfzJLbTebMMc0
+S1
+R0
+R15
+8mux8to1.sv
+Fmux8to1.sv
+!i122 0
+L0 1 12
+R5
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+n@mux8to1
+Xmy_pkg
+R2
+R4
+!i10b 1
+!s100 <k65bFf0BA<k:H2HY0S4`3
+I6dcL?4^NQH4Hk4Y_lMzN@0
+S1
+R0
+w1686334568
+8my_pkg.sv
+Fmy_pkg.sv
+!i122 0
+R14
+V6dcL?4^NQH4Hk4Y_lMzN@0
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vShiftRegister
+R2
+R4
+!i10b 1
+!s100 XfJ>RbcEk@Co_]SNeU_4f0
+In?0ig8U1PKK=N=clmdCgP3
+S1
+R0
+w1686341002
+8shiftregister.sv
+Fshiftregister.sv
+!i122 0
+L0 1 33
+R5
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+n@shift@register
+vtop
+R2
+R3
+R22
+R4
+R5
+r1
+!s85 0
+!i10b 1
+!s100 :Xi<dJdGKZmnj6]D6F7SQ3
+I`0Q3;ABR7A;4NRYZ0G3Ve3
+R23
+S1
+R0
+R24
+R25
+R26
+!i122 0
+L0 278 34
+R9
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+Xtop_sv_unit
+!s115 INTF
+R2
+R3
+R4
+V4ho3fFMNme]_3?B@nR4M^0
+r1
+!s85 0
+!i10b 1
+!s100 @1nD0G3KHdD<HGGKmbeIT0
+I4ho3fFMNme]_3?B@nR4M^0
+!i103 1
+S1
+R0
+R24
+R25
+R26
+!i122 0
+R14
+R9
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1

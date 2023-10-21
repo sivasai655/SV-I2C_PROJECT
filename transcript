@@ -1,0 +1,48 @@
+# vsim -c -voptargs="+acc=npr" top -do "vcd file dump.vcd; vcd add -r top/*; run -all; quit" 
+# Start time: 21:54:19 on Jun 09,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 2021.3_1 linux_x86_64 Aug 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.my_pkg(fast)
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.INTF(fast__2)
+# Loading work.i2c_top_sv_unit(fast)
+# Loading work.I2C_top(fast)
+# Loading work.I2C_sv_unit(fast)
+# Loading work.I2C(fast)
+# Loading work.controller_sv_unit(fast)
+# Loading work.Controller(fast)
+# Loading work.memory(fast)
+# Loading work.ShiftRegister(fast)
+# Loading work.Mux8to1(fast)
+# Loading work.DFF(fast)
+# Loading work.INTF(fast)
+# vcd file dump.vcd
+#  vcd add -r top/*
+#  run -all
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 2  Process: /top/MAIN/DUT/#implicit#unique__125 File: I2C.sv Line: 125
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 2  Process: /top/MAIN/DUT/#implicit#unique__65 File: I2C.sv Line: 65
+# 	********* REPORT *********
+# TOTAL TEST CASES 5064 
+# TOTAL TEST CASES PASSED 5064
+# TOTAL TEST CASES FAILED 0
+# ** Note: $finish    : top.sv(308)
+#    Time: 837348 ns  Iteration: 0  Instance: /top
+# End time: 21:54:23 on Jun 09,2023, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 2
